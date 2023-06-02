@@ -7,7 +7,7 @@ import shutil
 import gymnasium as gym
 import ray
 import ray.rllib.agents.ppo as ppo
-from energyplus_gymEnv.envs.EPEnv import EnergyPlusEnv_v0
+from ep_gymenv.envs.EPEnv import EnergyPlusEnv_v0
 from ray.tune.registry import register_env
 
 
